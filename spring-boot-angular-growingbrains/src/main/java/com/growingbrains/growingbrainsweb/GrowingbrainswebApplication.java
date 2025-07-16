@@ -1,13 +1,13 @@
-package com.growingbrains.growingbrains_web;
+package com.growingbrains.growingbrainsweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GrowingbrainsWebApplication {
+public class GrowingbrainswebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GrowingbrainsWebApplication.class, args);
+		SpringApplication.run(GrowingbrainswebApplication.class, args);
 	}
 
 }

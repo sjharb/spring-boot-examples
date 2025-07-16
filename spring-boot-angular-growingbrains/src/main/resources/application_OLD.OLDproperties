@@ -1,4 +1,0 @@
-spring.application.name=growingbrains-web
-spring.web.resources.static-locations=classpath:/static/angular-growingbrains/browser
-server.servlet.context-path=/growingbrains-web
-management.endpoints.web.base-path=/growingbrains-web
