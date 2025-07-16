@@ -1,0 +1,29 @@
+# OLD application.properties file contents before switching to yaml application.yaml
+# spring.application.name=growingbrains-web
+# spring.web.resources.static-locations=classpath:/static/angular-growingbrains/browser
+# server.servlet.context-path=/growingbrains-web
+# management.endpoints.web.base-path=/growingbrains-web
+
+server:
+  port: 8080
+  servlet:
+    context-path: /growingbrains-web
+spring:
+  application:
+    name: growingbrains-web
+  web:
+    resources:
+      static-locations: classpath:/static/angular-growingbrains/browser
+
+management:
+  endpoints:
+    web:
+      base-path: /growingbrains-web
+
+# TODO: setup maria db
+# TODO: Use environment variable for db password?  Not sure if this is the best way?
+# TODO: how to encrypt the yaml file?
+# database:
+#   url: jdbc:maria://growingbrains-db:3306/mydb
+#   username: ${MARIA_DB_USER}
+#   password: ${MARIA_DB_PASSWORD}
